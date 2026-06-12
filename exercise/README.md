@@ -218,7 +218,7 @@ Open `notes.txt` and confirm that your name appears in the file.
 
 We will do this part together in class.
 
-Go to the [Homework Submission Link](https://docs.google.com/forms/d/e/1FAIpQLSfyQ6bX0rU9ZO5YrP0M6hUlcmlPGTnthGlcpTv94TR733kmFw/viewform?usp=dialog).
+Go to the [Homework Submission Link](https://forms.gle/UvX1VpLLWAqwJh5g8).
 
 Choose the lab from the dropdown menu.
 
@@ -228,7 +228,7 @@ Copy the link to the GitHub repository you just pushed to.
 
 ![Submission 2](../assets/submission-2.png)
 
-Paste the link into the submission form for `github link`.
+Paste the link into the submission form for `Link to your homework repo`.
 
 ![Submission 3](../assets/submission-3.png)
 
@@ -237,40 +237,3 @@ Enter your last name in the last input.
 Click **Submit**.
 
 Great work. This is how you will submit homework moving forward.
-
----
-
-## AI use disclosure
-
-Answer this before submitting your work:
-
-Did you use AI on this assignment?
-
-- [ ] No
-- [ ] Yes
-
-If yes, explain how you used it.
-
-Examples:
-
-- I used AI to explain an error message.
-- I used AI to help me understand a Git command.
-- I used AI to help me understand why a push failed.
-- I did not copy and paste a full solution.
-
----
-
-## Final checklist
-
-Before you finish, confirm that:
-
-- [ ] Your folder is named `git-lab-intro`
-- [ ] Your file is named `notes.txt`
-- [ ] Your `notes.txt` file includes answers to the questions
-- [ ] You made an initial commit
-- [ ] You pushed your first commit to GitHub
-- [ ] You added your name to `notes.txt`
-- [ ] You made a second commit
-- [ ] You pushed your second commit to GitHub
-- [ ] You submitted your GitHub repository link
-- [ ] You completed the AI use disclosure

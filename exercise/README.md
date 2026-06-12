@@ -41,7 +41,7 @@ Run:
 git status
 ```
 
-You should see that `notes.txt` is untracked (might look like "<span style="color: red; font-weight: bold;">modified: notes.txt</span>").
+You should see that `notes.txt` is untracked (might look like red text saying "<span style="color: red; font-weight: bold;">modified: notes.txt</span>").
 
 This means Git sees the file, but it is not staged yet.
 

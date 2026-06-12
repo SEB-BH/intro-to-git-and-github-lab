@@ -5,62 +5,12 @@
 
 In this lab, you will create a small notes project and publish it to GitHub.
 
-By the end, you should have:
-
-- A local folder named `git-lab-intro`
-- A file named `notes.txt`
-- At least two Git commits
-- A GitHub repository with your work pushed to it
-- A submitted GitHub repository link
-
 > 💡 Read each step carefully. Save your file before running Git commands.
 
-## Step 1: Create a folder in your labs folder
 
-In your terminal, make sure you are inside your `labs` folder.
+## Step 1: Add initial content
 
-Create a new folder named `git-lab-intro`:
-
-```bash
-mkdir git-lab-intro
-```
-
-Move into the new folder:
-
-```bash
-cd git-lab-intro
-```
-
-Create a file named `notes.txt`:
-
-```bash
-touch notes.txt
-```
-
-> 💡 On Windows, if `touch` does not work, you can create the file from VS Code or File Explorer.
-
-Check that the file was created:
-
-```bash
-ls
-```
-
-You should see `notes.txt`.
-
-**Checkpoint:** Your terminal should show the `notes.txt` file.
-
-![Checkpoint](../assets/notes.png)
-
-
-## Step 2: Add initial content
-
-Open the folder in VS Code:
-
-```bash
-code .
-```
-
-Open `notes.txt` and paste this text into the file:
+In `notes.txt` paste this text into the file:
 
 ```txt
 GITHUB LAB
@@ -84,52 +34,38 @@ Save the file.
 
 > ⚠️ Git can only track changes that have been saved.
 
-
-## Step 3: Initialize Git
-
-Inside the `git-lab-intro` folder, run:
-
-```bash
-git init
-```
-
-This command turns your folder into a Git repository.
-
-A **Git repository** is a folder where Git can track changes.
-
-
-## Step 4: Check the repository status
+## Step 2: Check the repository status
 
 Run:
-
 ```bash
 git status
 ```
 
-You should see that `notes.txt` is untracked.
+You should see that `notes.txt` is untracked (might look like "<span style="color: red; font-weight: bold;">modified: notes.txt</span>").
 
 This means Git sees the file, but it is not staged yet.
 
 
-## Step 5: Stage the file
+## Step 3: Stage the file
 
 Run:
-
 ```bash
 git add .
 ```
 
-This stages all saved changes in the current folder.
+Check the status again:
+```bash
+git status
+```
 
-> 💡 Staging means you are preparing changes for a commit.
+You should see that `notes.txt` is now tracked and changed from red to green (might look like "<span style="color: green; font-weight: bold;">modified: notes.txt</span>").
 
 
-## Step 6: Make your first commit
+## Step 4: Make your first commit
 
 Run:
-
 ```bash
-git commit -m "First commit: added learning notes for git"
+git commit -m "Adds learning notes for git"
 ```
 
 A **commit** is a saved point in your project history.
@@ -137,29 +73,15 @@ A **commit** is a saved point in your project history.
 Use commit messages that clearly explain what changed.
 
 
-## Step 7: Create a GitHub repository
+## Step 5: Push your local changes to GitHub.com
 
-Go to [GitHub](https://github.com/new) and create a new repository.
-
-Use these settings:
-
-- ✅ Repository name: `git-lab-intro`
-- ✅ Visibility: Public
-- ❌ Do **not** initialize the repository with a `README.md`
-- ❌ Do **not** add a `.gitignore`
-- ❌ Do **not** add a license
+Run:
+```bash
+git push origin main
+```
 
 
-## Step 8: Connect your local repository to GitHub.com and push
-
-GitHub will show commands that connect your local repository to the GitHub.com repository.
-
-Copy the commands from GitHub and paste them into your terminal.
-
-![Push origin main](../assets/image.png)
-
-
-## Step 9: Check that your code pushed
+## Step 6: Check that your code pushed
 
 Go back to your GitHub repository page in the browser.
 
@@ -172,7 +94,7 @@ Check that `notes.txt` is visible in the repository.
 ![Checkpoint 2](../assets/image-2.png)
 
 
-## Step 10: Make a change
+## Step 7: Make a change
 
 Open `notes.txt` on your computer again.
 
@@ -184,12 +106,14 @@ Save the file.
 - macOS: `Command` + `S`
 
 
-## Step 11: Stage, commit and push the updated file
+## Step 8: Stage, commit and push the updated file
 
 #### Stage
 
 ```bash
+git status
 git add .
+git status
 ```
 
 #### Commit
@@ -206,7 +130,7 @@ git push origin main
 
 This sends your latest commit to GitHub.
 
-## Step 12: Confirm the second push
+## Step 9: Confirm the second push
 
 Go back to your GitHub repository page.
 
@@ -214,7 +138,7 @@ Refresh the page.
 
 Open `notes.txt` and confirm that your name appears in the file.
 
-## Step 13: Submit the lab
+## Step 10: Submit the lab
 
 We will do this part together in class.
 
@@ -240,3 +164,13 @@ Don't forget to:
 Click **Submit**.
 
 Great work. This is how you will submit homework moving forward.
+
+## Keep these steps handy
+
+```bash
+git status
+git add .
+git status
+git commit -m "message"
+git push origin main
+```

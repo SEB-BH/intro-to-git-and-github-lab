@@ -9,37 +9,58 @@ Before starting, make sure you have:
 
 - Git installed
 - A GitHub account
-- A terminal, such as the VS Code terminal, Git Bash on Windows, or zsh on macOS
 - A `labs` folder where you save class lab work
+- VS Code installed
 
 ## Open your terminal
 
-Open your terminal and move into your `labs` folder.
-
-For macOS or Git Bash on Windows, you may use a command like this:
+Open your Terminal application and navigate to your **`~/code/ga/labs`** directory:
 
 ```bash
 cd ~/code/ga/labs
 ```
 
-> 💡 If your class uses a different folder location, use that folder instead.
+Navigate to [GitHub](https://github.com/) and create a new repository named **intro-to-git-lab**.
 
-## Confirm you are in the correct place
+**Use these settings:**
+* ✅ Repository name: `intro-to-git-lab`
+* ✅ Visibility: Public
+* ❌ Do **not** initialize the repository with a `README.md`
+* ❌ Do **not** add a `.gitignore`
+* ❌ Do **not** add a license
 
-Run:
-
-```bash
-pwd
-```
-
-This prints your current folder path.
-
-Then run:
+Using the `Quick Setup` option, clone your newly created repo into your `~/code/ga/labs` directory with the `git clone` command:
 
 ```bash
-ls
+git clone https://github.com/<your-username>/intro-to-git-lab.git
 ```
 
-This lists the files and folders in your current folder.
+> Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
 
-You are ready to begin when you are inside the folder where you save your labs.
+Next, `cd` into your new cloned directory, `intro-to-git-lab`:
+
+```bash
+cd intro-to-git-lab
+```
+
+Create a file named `notes.txt`:
+
+```bash
+touch notes.txt
+```
+
+### Checkpoint 
+
+- Run the `ls` command
+- Your terminal should show the `notes.txt` file.
+
+![Checkpoint](../assets/notes.png)
+
+
+Open the folder in VS Code:
+
+```bash
+code .
+```
+
+You are ready to begin!

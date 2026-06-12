@@ -15,17 +15,24 @@ In `notes.txt` paste this text into the file:
 ```txt
 GITHUB LAB
 
-1. What is the first command you always need to initialize a git repository?
+1. Does creating the repository in GitHub create the repo on your computer?
 
 ANSWER:
 
 
-2. You see your friend pushed code to their repository with the following commit message "done!". Is this a good commit message? Why or why not?
+
+2. What does cloning do?
+
+ANSWER:
+
+
+
+3. Once you've cloned the repo, how do you open it in VS Code?
 
 ANSWER:
 ```
 
-Answer both questions in the file.
+Answer the questions in the file.
 
 Save the file.
 
@@ -36,19 +43,16 @@ Save the file.
 
 ## Step 2: Check the repository status
 
-Run:
 ```bash
 git status
 ```
 
-You should see that `notes.txt` is untracked (might look like red text saying "<span style="color: red; font-weight: bold;">modified: notes.txt</span>").
+![Checkpoint](../assets/unstaged.png)
 
 This means Git sees the file, but it is not staged yet.
 
-
 ## Step 3: Stage the file
 
-Run:
 ```bash
 git add .
 ```
@@ -58,28 +62,27 @@ Check the status again:
 git status
 ```
 
-You should see that `notes.txt` is now tracked and changed from red to green (might look like "<span style="color: green; font-weight: bold;">modified: notes.txt</span>").
+![Checkpoint](../assets/staged.png)
 
 
-## Step 4: Make your first commit
+## Step 4: Finish making your first commit
 
-Run:
 ```bash
 git commit -m "Adds learning notes for git"
 ```
 
-A **commit** is a saved point in your project history.
+- A **commit** is a saved point in your project history.  
+- Use commit messages that clearly explain what changed.
 
-Use commit messages that clearly explain what changed.
-
+![Checkpoint](../assets/commit.png)
 
 ## Step 5: Push your local changes to GitHub.com
 
-Run:
 ```bash
 git push origin main
 ```
 
+![Checkpoint](../assets/push.png)
 
 ## Step 6: Check that your code pushed
 
@@ -91,7 +94,7 @@ Check that `notes.txt` is visible in the repository.
 
 **Checkpoint:** You should see something like this on GitHub.
 
-![Checkpoint 2](../assets/image-2.png)
+![Checkpoint 2](../assets/github.png)
 
 
 ## Step 7: Make a change
@@ -119,7 +122,7 @@ git status
 #### Commit
 
 ```bash
-git commit -m "Add name to notes.txt file"
+git commit -m "Adds name to notes.txt file"
 ```
 
 #### Push
@@ -137,6 +140,8 @@ Go back to your GitHub repository page.
 Refresh the page.
 
 Open `notes.txt` and confirm that your name appears in the file.
+
+![Checkpoint](../assets/updated.png)
 
 ## Step 10: Submit the lab
 

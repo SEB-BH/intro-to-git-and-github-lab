@@ -20,7 +20,7 @@ Open your Terminal application and navigate to your **`~/code/ga/labs`** directo
 cd ~/code/ga/labs
 ```
 
-Navigate to [GitHub](https://github.com/) and create a new repository named **intro-to-git-lab**.
+Navigate to [GitHub](https://github.com/new) and create a new repository named **intro-to-git-lab**.
 
 **Use these settings:**
 * ✅ Repository name: `intro-to-git-lab`
@@ -29,13 +29,21 @@ Navigate to [GitHub](https://github.com/) and create a new repository named **in
 * ❌ Do **not** add a `.gitignore`
 * ❌ Do **not** add a license
 
+![New Repo Config](../assets/new-repo-config.png)
+
 Using the `Quick Setup` option, clone your newly created repo into your `~/code/ga/labs` directory with the `git clone` command:
 
+![Git HTTP](../assets/git-http.png)
+
 ```bash
-git clone https://github.com/<your-username>/intro-to-git-lab.git
+git clone <your-repo-link>
 ```
 
-> Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
+> Note: In the link above, where it says `<your-repo-link>`, you should paste the link you cloned from github.
+
+Your terminal might give you a warning that you appear to have cloned an empty repository.  That is OK.  Continue.
+
+![Empty Repo](../assets/empty-repo.png)
 
 Next, `cd` into your new cloned directory, `intro-to-git-lab`:
 
@@ -48,8 +56,6 @@ Create a file named `notes.txt`:
 ```bash
 touch notes.txt
 ```
-
-### Checkpoint 
 
 - Run the `ls` command
 - Your terminal should show the `notes.txt` file.

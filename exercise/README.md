@@ -232,7 +232,10 @@ Paste the link into the submission form for `Link to your homework repo`.
 
 ![Submission 3](../assets/submission-3.png)
 
-Enter your last name in the last input.
+Don't forget to:
+- Fill in your name
+- Leave us any notes (was it too easy?  Do you need extra help finishing it?  Did you notice an error?)
+- Let us know if you used AI to help you finish
 
 Click **Submit**.
 

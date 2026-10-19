@@ -147,7 +147,7 @@ Open `notes.txt` and confirm that your name appears in the file.
 
 We will do this part together in class.
 
-Go to the [Homework Submission Link](https://forms.gle/UvX1VpLLWAqwJh5g8).
+Go to the [Homework Submission Link](https://forms.gle/rHavhFGqg9SNbfdA7).
 
 Choose the lab from the dropdown menu.
 
